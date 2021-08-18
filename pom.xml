@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>gg.solarmc</groupId>
-	    <artifactId>solar-parent</artifactId>
-	    <version>0.6.2</version>
+        <groupId>gg.solarmc</groupId>
+        <artifactId>solar-parent</artifactId>
+        <version>0.6.2</version>
     </parent>
 
     <artifactId>starter-archetype</artifactId>
@@ -16,9 +16,9 @@
 
     <name>SolarMC starter archetype</name>
 
-	<scm>
-		<developerConnection>scm:git:https://github.com/SolarMC-Dev/starter-archetype.git</developerConnection>
-	</scm>
+    <scm>
+        <developerConnection>scm:git:https://github.com/SolarMC-Dev/starter-archetype.git</developerConnection>
+    </scm>
 
     <build>
 	    <extensions>
@@ -30,10 +30,10 @@
 	    </extensions>
     </build>
 
-	<repositories>
-		<repository>
-			<id>solar-releases</id>
-			<url>https://mvn-repo.solarmc.gg/releases</url>
-		</repository>
-	</repositories>
+    <repositories>
+        <repository>
+            <id>solar-releases</id>
+            <url>https://mvn-repo.solarmc.gg/releases</url>
+        </repository>
+    </repositories>
 </project>
