@@ -5,7 +5,7 @@
     <parent>
         <groupId>gg.solarmc</groupId>
         <artifactId>solar-parent</artifactId>
-        <version>0.6.2</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>starter-archetype</artifactId>
@@ -19,6 +19,28 @@
       <tag>HEAD</tag>
   </scm>
 
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License, Version 3</name>
+            <url>https://www.gnu.org/licenses/lgpl-3.0-standalone.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>anandbeh</id>
+            <name>Anand Beh</name>
+            <email>theanandbeh@gmail.com</email>
+            <url>https://github.com/A248</url>
+            <roles>
+                <role>creator</role>
+                <role>developer</role>
+            </roles>
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+
     <build>
 	    <extensions>
 	        <extension>
@@ -31,8 +53,8 @@
 
     <repositories>
         <repository>
-            <id>solar-releases</id>
-            <url>https://mvn-repo.solarmc.gg/releases</url>
+            <id>solar-repo</id>
+            <url>https://repo.solarmc.gg/mvn</url>
         </repository>
     </repositories>
 </project>
